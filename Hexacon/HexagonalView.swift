@@ -62,10 +62,6 @@ public protocol HexagonalViewDataSource: class {
     func hexagonalView(_ hexagonalView: HexagonalView,viewForIndex index: Int) -> UIView?
 }
 
-public extension HexagonalViewDataSource {
-    func hexagonalView(_ hexagonalView: HexagonalView,imageForIndex index: Int) -> UIImage? { return nil }
-    func hexagonalView(_ hexagonalView: HexagonalView,viewForIndex index: Int) -> UIView? { return nil }
-}
 
 public final class HexagonalView: UIScrollView {
     
