@@ -135,7 +135,7 @@ public final class HexagonalView: UIScrollView {
         alwaysBounceHorizontal = true
         alwaysBounceVertical = true
         bouncesZoom = false
-        decelerationRate = UIScrollViewDecelerationRateFast
+        decelerationRate = UIScrollView.DecelerationRate.fast
         delegate = self
         minimumZoomScale = 0.2
         maximumZoomScale = 2
